@@ -188,7 +188,7 @@ void process_setup(pid_t pid, const char* program_name) {
                                           * kernel_pagetable as their pagetable on line 185. Every process 
                                           * should havheir own page table. 
                                           * There is a function that will help you give the current process 
-                                          * being setup a new pagetable. ***/e t
+                                          * being setup a new pagetable. ***/
 
                                          /***TODO 4: This is where we need to give each process their own shelf. 
                                           * For the this process, calculate the code, data, start of heap, and stack addresses. 
